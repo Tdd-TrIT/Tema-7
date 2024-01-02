@@ -1,0 +1,10 @@
+Recibe un nº de ticket inexistente → Error, ticket no encontrado
+
+Ticket emitido a las 14:30 y son las 16:32. Precio 0,033€/minuto → Devuelve un importe a pagar de 4,03€ (122 mins * 0.033)
+
+Ticket emitido a las 9:15 y son las 22:27. Precio 0,033€/minuto. Máximo diario 25€ → Devuelve un importe a pagar de 25€ (son 792 minutos * 0.033 = 26,14€, que supera el máximo diario)
+
+Ticket emitido a las 23:30 y son las 0:30 del día siguiente. Precio 0,033€/minuto → Devuelve un importe a pagar de 1,98€ (60 minutos)
+
+Ticket emitido a las 21:15 del 10/09, y son las 8:27 del 12/09. Precio 0,033€/minuto. Máximo diario 25€  → Devuelve un importe a pagar de 47,18€ (son 35h y 12 min en total. 25€ del tope por las primeras 24h y 22,18€ el resto)
+
